@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/horsey.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/ol3-search-layer.min.css">
+        <link href="resources/photon-geocoder-autocomplete.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="resources/horsey.min.js"></script>
+        <script src="resources/ol3-search-layer.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/photon-geocoder-autocomplete.min.js"></script>
+        <script src="layers/_____2025___1.js"></script><script src="layers/_____2025___2.js"></script><script src="layers/_____2025___3.js"></script><script src="layers/______20252___4.js"></script><script src="layers/______2025___5.js"></script><script src="layers/______2025___6.js"></script><script src="layers/______2025___7.js"></script><script src="layers/__________2025___8.js"></script><script src="layers/________2025___9.js"></script><script src="layers/______2025___10.js"></script><script src="layers/______2025___11.js"></script><script src="layers/202504042025___12.js"></script><script src="layers/2025___13.js"></script><script src="layers/2025___14.js"></script><script src="layers/2025___15.js"></script><script src="layers/2025___16.js"></script><script src="layers/2025___17.js"></script><script src="layers/___18.js"></script><script src="layers/25___19.js"></script><script src="layers/2025___20.js"></script><script src="layers/11___21.js"></script><script src="layers/2024___22.js"></script><script src="layers/______2024___23.js"></script><script src="layers/____2024___24.js"></script><script src="layers/_____3___2024___25.js"></script><script src="layers/________2024___26.js"></script><script src="layers/______2024___27.js"></script><script src="layers/______2024___28.js"></script><script src="layers/_______2024___29.js"></script><script src="layers/_234__4___2024___30.js"></script><script src="layers/2024___31.js"></script><script src="layers/2024___32.js"></script><script src="layers/2024___33.js"></script><script src="layers/2024___34.js"></script><script src="layers/2024___35.js"></script><script src="layers/20224___36.js"></script><script src="layers/202422112024___37.js"></script><script src="layers/2024___38.js"></script><script src="layers/2024___39.js"></script><script src="layers/2024___40.js"></script><script src="layers/8162024___41.js"></script><script src="layers/2024___42.js"></script><script src="layers/2024___43.js"></script><script src="layers/657465672024___44.js"></script><script src="layers/657465672024___45.js"></script><script src="layers/2024___46.js"></script><script src="layers/2024___47.js"></script><script src="layers/657465672024___48.js"></script><script src="layers/2024___49.js"></script><script src="layers/2024___50.js"></script><script src="layers/2024___51.js"></script><script src="layers/2024___52.js"></script><script src="layers/2024___53.js"></script><script src="layers/2024___54.js"></script><script src="layers/2024___55.js"></script><script src="layers/24___56.js"></script><script src="layers/2024___57.js"></script><script src="layers/2024___58.js"></script><script src="layers/2024___59.js"></script><script src="layers/2024___60.js"></script><script src="layers/2024___61.js"></script><script src="layers/2024___62.js"></script><script src="layers/2024___63.js"></script><script src="layers/2024___64.js"></script><script src="layers/__234__4___2024___65.js"></script><script src="layers/_____2024___66.js"></script><script src="layers/___3___2024___67.js"></script><script src="layers/______2024___68.js"></script><script src="layers/_____2024___69.js"></script><script src="layers/______2024___70.js"></script><script src="layers/______2024___71.js"></script><script src="layers/______2024___72.js"></script><script src="layers/________2024___73.js"></script><script src="layers/2024___74.js"></script><script src="layers/2024___75.js"></script><script src="layers/2024___76.js"></script><script src="layers/2024___77.js"></script><script src="layers/20224___78.js"></script><script src="layers/2024___79.js"></script><script src="layers/2024___80.js"></script><script src="layers/2024___81.js"></script><script src="layers/2024___82.js"></script><script src="layers/2024___83.js"></script><script src="layers/2024___84.js"></script><script src="layers/2024___85.js"></script><script src="layers/20242___86.js"></script><script src="layers/2024___87.js"></script><script src="layers/2024___88.js"></script><script src="layers/2024___89.js"></script><script src="layers/2024___90.js"></script><script src="layers/2024___91.js"></script><script src="layers/2024___92.js"></script><script src="layers/2024___93.js"></script><script src="layers/2024___94.js"></script><script src="layers/2024___95.js"></script><script src="layers/2024___96.js"></script><script src="layers/2024___97.js"></script><script src="layers/2024___98.js"></script><script src="layers/2024___99.js"></script><script src="layers/2024___100.js"></script><script src="layers/657465672024___101.js"></script><script src="layers/2024___102.js"></script><script src="layers/2024___103.js"></script><script src="layers/2024___104.js"></script><script src="layers/20___105.js"></script><script src="layers/19___106.js"></script><script src="layers/181812___107.js"></script><script src="layers/1___108.js"></script><script src="layers/2___109.js"></script><script src="layers/3___110.js"></script><script src="layers/4___111.js"></script><script src="layers/5___112.js"></script><script src="layers/6___113.js"></script><script src="layers/7___114.js"></script><script src="layers/8___115.js"></script><script src="layers/2023___116.js"></script><script src="layers/2023___117.js"></script><script src="layers/2023___118.js"></script>
+        <script src="styles/_____2025___1_style.js"></script><script src="styles/_____2025___2_style.js"></script><script src="styles/_____2025___3_style.js"></script><script src="styles/______20252___4_style.js"></script><script src="styles/______2025___5_style.js"></script><script src="styles/______2025___6_style.js"></script><script src="styles/______2025___7_style.js"></script><script src="styles/__________2025___8_style.js"></script><script src="styles/________2025___9_style.js"></script><script src="styles/______2025___10_style.js"></script><script src="styles/______2025___11_style.js"></script><script src="styles/202504042025___12_style.js"></script><script src="styles/2025___13_style.js"></script><script src="styles/2025___14_style.js"></script><script src="styles/2025___15_style.js"></script><script src="styles/2025___16_style.js"></script><script src="styles/2025___17_style.js"></script><script src="styles/___18_style.js"></script><script src="styles/25___19_style.js"></script><script src="styles/2025___20_style.js"></script><script src="styles/11___21_style.js"></script><script src="styles/2024___22_style.js"></script><script src="styles/______2024___23_style.js"></script><script src="styles/____2024___24_style.js"></script><script src="styles/_____3___2024___25_style.js"></script><script src="styles/________2024___26_style.js"></script><script src="styles/______2024___27_style.js"></script><script src="styles/______2024___28_style.js"></script><script src="styles/_______2024___29_style.js"></script><script src="styles/_234__4___2024___30_style.js"></script><script src="styles/2024___31_style.js"></script><script src="styles/2024___32_style.js"></script><script src="styles/2024___33_style.js"></script><script src="styles/2024___34_style.js"></script><script src="styles/2024___35_style.js"></script><script src="styles/20224___36_style.js"></script><script src="styles/202422112024___37_style.js"></script><script src="styles/2024___38_style.js"></script><script src="styles/2024___39_style.js"></script><script src="styles/2024___40_style.js"></script><script src="styles/8162024___41_style.js"></script><script src="styles/2024___42_style.js"></script><script src="styles/2024___43_style.js"></script><script src="styles/657465672024___44_style.js"></script><script src="styles/657465672024___45_style.js"></script><script src="styles/2024___46_style.js"></script><script src="styles/2024___47_style.js"></script><script src="styles/657465672024___48_style.js"></script><script src="styles/2024___49_style.js"></script><script src="styles/2024___50_style.js"></script><script src="styles/2024___51_style.js"></script><script src="styles/2024___52_style.js"></script><script src="styles/2024___53_style.js"></script><script src="styles/2024___54_style.js"></script><script src="styles/2024___55_style.js"></script><script src="styles/24___56_style.js"></script><script src="styles/2024___57_style.js"></script><script src="styles/2024___58_style.js"></script><script src="styles/2024___59_style.js"></script><script src="styles/2024___60_style.js"></script><script src="styles/2024___61_style.js"></script><script src="styles/2024___62_style.js"></script><script src="styles/2024___63_style.js"></script><script src="styles/2024___64_style.js"></script><script src="styles/__234__4___2024___65_style.js"></script><script src="styles/_____2024___66_style.js"></script><script src="styles/___3___2024___67_style.js"></script><script src="styles/______2024___68_style.js"></script><script src="styles/_____2024___69_style.js"></script><script src="styles/______2024___70_style.js"></script><script src="styles/______2024___71_style.js"></script><script src="styles/______2024___72_style.js"></script><script src="styles/________2024___73_style.js"></script><script src="styles/2024___74_style.js"></script><script src="styles/2024___75_style.js"></script><script src="styles/2024___76_style.js"></script><script src="styles/2024___77_style.js"></script><script src="styles/20224___78_style.js"></script><script src="styles/2024___79_style.js"></script><script src="styles/2024___80_style.js"></script><script src="styles/2024___81_style.js"></script><script src="styles/2024___82_style.js"></script><script src="styles/2024___83_style.js"></script><script src="styles/2024___84_style.js"></script><script src="styles/2024___85_style.js"></script><script src="styles/20242___86_style.js"></script><script src="styles/2024___87_style.js"></script><script src="styles/2024___88_style.js"></script><script src="styles/2024___89_style.js"></script><script src="styles/2024___90_style.js"></script><script src="styles/2024___91_style.js"></script><script src="styles/2024___92_style.js"></script><script src="styles/2024___93_style.js"></script><script src="styles/2024___94_style.js"></script><script src="styles/2024___95_style.js"></script><script src="styles/2024___96_style.js"></script><script src="styles/2024___97_style.js"></script><script src="styles/2024___98_style.js"></script><script src="styles/2024___99_style.js"></script><script src="styles/2024___100_style.js"></script><script src="styles/657465672024___101_style.js"></script><script src="styles/2024___102_style.js"></script><script src="styles/2024___103_style.js"></script><script src="styles/2024___104_style.js"></script><script src="styles/20___105_style.js"></script><script src="styles/19___106_style.js"></script><script src="styles/181812___107_style.js"></script><script src="styles/1___108_style.js"></script><script src="styles/2___109_style.js"></script><script src="styles/3___110_style.js"></script><script src="styles/4___111_style.js"></script><script src="styles/5___112_style.js"></script><script src="styles/6___113_style.js"></script><script src="styles/7___114_style.js"></script><script src="styles/8___115_style.js"></script><script src="styles/2023___116_style.js"></script><script src="styles/2023___117_style.js"></script><script src="styles/2023___118_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
